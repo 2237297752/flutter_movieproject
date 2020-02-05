@@ -41,7 +41,7 @@ class _MainHomePageState extends State<MainHomePage> {
     _pageController = new PageController(
         initialPage: _currentIndex, keepPage: true, viewportFraction: 1.0);
     _pages = [
-      MainPage(),
+      HomePage(),
       ProjectPage(),
       MinePage(),
     ];
